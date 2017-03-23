@@ -1,6 +1,8 @@
 package sourcetree
 
-import "testing"
+import (
+	"testing"
+)
 
 func TestCheckArg(t *testing.T) {
 	type args struct {
